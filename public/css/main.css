@@ -1,0 +1,118 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+	background: url(../assets/background.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+ 	background-blend-mode: saturation;
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+h1 {
+	margin: 0 0 2.625rem 0;
+	position: relative;
+	font-size: 3rem;
+	line-height: 1.2;
+	color: rgba(255, 255, 255, 0.875);
+    font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	letter-spacing: -0.05em;
+}
+
+h1:after {
+	content: '';
+    position: absolute;
+    left: 0;
+    width: 3.5rem;
+    height: 0.1rem;
+	background-color: rgba(255, 255, 255, 0.25);
+	bottom: -1.325rem;
+}
+
+p {
+	position: relative;
+	color: rgba(255, 255, 255, 0.75);
+	margin: 0 0 1.5rem 0;
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+.information {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+	bottom: 0;
+	right: 0;
+	left: auto;
+	width: 55%;
+}
+
+.image {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: auto;
+	overflow: hidden;
+	width: 40%;
+}
+
+img {
+	height: 100%;
+}
+
+main {
+	position: relative;
+	width: 90vw;
+	height: calc(100vh - 10vw);
+	background-color: #a0a0a0;
+	margin: 5vw;
+	justify-content: center;
+	justify-items: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: row;
+	padding: 3.5rem 3.5rem 2rem 3.5rem;
+	position: absolute;
+	background: linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+	width: calc(100% - 7rem);
+	height: calc(100% - 5.5rem);
+	right: 0;
+}
+
+.btn {
+	position: relative;
+	color: #e37b7c;
+	background-color: white;
+	box-shadow: none;
+	appearance: none;
+	transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+	border: 0;
+	border-radius: 0.25rem;
+	cursor: pointer;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6rem;
+    font-weight: 700;
+    height: 2.75rem;
+    letter-spacing: 0.15rem;
+    line-height: 2.75rem;
+    padding: 0 1.5rem 0 1.65rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}

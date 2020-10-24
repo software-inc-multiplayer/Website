@@ -1,0 +1,23 @@
+{
+	"hosting": {
+		"public": "public",
+		"ignore": [
+			"firebase.json",
+			"**/.*",
+			"**/node_modules/**"
+		],
+		"rewrites": [
+			{
+				"source": "**",
+				"destination": "/index.html"
+			}
+		],
+		"redirects": [
+			{
+				"source": "/discord",
+				"destination": "https://discord.gg/cZCegc6",
+				"type": 301
+			}
+		]
+	}
+}
