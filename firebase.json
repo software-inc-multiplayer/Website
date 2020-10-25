@@ -8,14 +8,28 @@
 		],
 		"rewrites": [
 			{
+				"source": "/download",
+				"destination": "/pages/download.html"
+			},
+			{
 				"source": "**",
-				"destination": "/index.html"
+				"destination": "/pages/index.html"
 			}
 		],
 		"redirects": [
 			{
 				"source": "/discord",
 				"destination": "https://discord.gg/cZCegc6",
+				"type": 301
+			},
+			{
+				"source": "/github",
+				"destination": "https://github.com/software-inc-multiplayer/software-inc-multiplayer",
+				"type": 301
+			},
+			{
+				"source": "/download/latest",
+				"destination": "https://github.com/software-inc-multiplayer/software-inc-multiplayer/releases/latest",
 				"type": 301
 			}
 		]

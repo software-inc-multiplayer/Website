@@ -5,7 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>SINC Multiplayer Mod</title>
-	<link rel="icon" href="./assets/Logo.png">
+	
+	<link rel="icon" href="/assets/Logo.png">
 
 	<script defer src="/__/firebase/7.24.0/firebase-app.js"></script>
 	<script defer src="/__/firebase/7.24.0/firebase-analytics.js"></script>
@@ -13,18 +14,23 @@
 
 	<link rel="stylesheet" href="/css/main.css">
 
+	<script type="text/javascript" src="/js/analytics.js"></script>
 </head>
 
-<body>
+<body onload="loaded()">
 	<main>
 		<section class="main-content">
-			<div class="image">
+			<div class="image hide">
 				<img src="./assets/img-01.jpg">
 			</div>
 			<div class="information">
-				<h1>Software Inc<br>Multiplayer Mod</h1>
-				<p>A <strong>Multiplayer</strong> mod for Software Inc that allows you to play with a near infinite amount of players.</p>
-				<a class="btn" href="/discord">Join the discord!</a>
+				<div class="information-content">
+					<h1>Software Inc <br>Multiplayer Mod</h1>
+					<p>A <strong>Multiplayer</strong> mod for Software Inc that allows you to play with a near infinite amount of
+						players.</p>
+					<a class="btn primary" href="/discord">Join the discord</a>
+					<a class="btn secondary" href="/download">Download</a>
+				</div>
 			</div>
 		</section>
 	</main>
