@@ -4,9 +4,9 @@
 
 </div>
 
-This is the official Multiplayer Mod website repository. We use Firebase static hosting, everything is automatically deployed.
+This is the official Multiplayer Mod website repository. We use Github Pages static hosting, everything is automatically deployed.
 
-Visit the website at [sincmultiplayer.net](https://sincmultiplayer.net/)
+Visit the website at [software-inc-multiplayer.github.io/Website](https://software-inc-multiplayer.github.io/Website/)
 
 ## Contributing
 
