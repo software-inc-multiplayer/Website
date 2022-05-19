@@ -141,7 +141,7 @@ main {
 	margin-bottom: 10px;
 }
 
-.primary:hover {
+.primary:hover:not(.disabled) {
 	background-color: #ffe4b4;
 }
 
@@ -151,9 +151,13 @@ main {
 	color: rgba(255, 255, 255, 0.875);
 }
 
-.secondary:hover {
+.secondary:hover:not(.disabled) {
 	box-shadow: inset 0 0 0 2px #ffe4b4;
 	color: #ffe4b4
+}
+
+.disabled {
+	cursor: not-allowed;
 }
 
 @media only screen and (max-width: 890px) {
